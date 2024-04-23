@@ -1,0 +1,97 @@
+/* Home */
+header {
+	height: 100vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.55) 70%, rgba(66, 134, 244, 0.45) 99%),
+	url("Spsmnews.png") no-repeat center center;
+	background-size: cover;
+}
+
+.playercount {
+	display: inline-block;
+
+	padding: 3px;
+	font-size: 1.2em;
+	color: white;
+	text-align: center;
+}
+
+.playercount span {
+	font-weight: 800;
+	display: inline-block;
+	background: linear-gradient(to left, rgb(10, 155, 240), rgb(24, 68, 109));
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+/* Main Content */
+
+.img {
+	transition: all 0.4s ease;
+	padding-bottom: 10px;
+}
+
+.img:hover {
+	transform: scale(1.05);
+}
+
+.apropos {
+	padding-bottom: 15px;
+}
+
+.gradient {	
+	color: white;
+	text-align: center;
+	padding: 30px;
+	background-size: cover;
+	background: #22275a;
+
+	
+}
+
+.flex-container {
+	margin: 0 auto;
+	max-width: 1100px;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+
+
+
+.split {
+	flex-basis: 250px;
+}
+
+
+.split img {
+ border-radius: 20px ;
+}
+
+
+.vote {
+	flex-basis: 210px;
+}
+
+/* Media Queries */
+
+@media(min-width: 1000px) {
+	.item:not(:first-child) {
+		margin-left: 90px;
+	}
+}
+
+@media(min-width: 700px) {
+	.main-content {
+		width: 40%;
+		text-align: center;
+		margin: 0 auto;
+	}
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	.vote {
+		min-width: 50%;
+	}
+}
