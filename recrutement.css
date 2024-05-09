@@ -1,0 +1,296 @@
+
+
+
+header {
+	height: 100vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.55) 70%, rgba(66, 134, 244, 0.45) 99%),
+	url("fondrecrutement.png") no-repeat center center;
+	background-size: cover;
+}
+
+.playercount {
+	display: inline-block;
+	padding: 3px;
+	font-size: 1.2em;
+	color: white;
+	text-align: center;
+}
+
+.playercount span {
+	display: inline-block;
+	background: linear-gradient(to left, #df3b3b, rgb(247, 138, 138));
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 800;
+}
+
+/* Main Content */
+
+.img {
+	transition: all 0.4s ease;
+	padding-bottom: 10px;
+}
+
+.img:hover {
+	transform: scale(1.05);
+}
+
+.apropos {
+	padding-bottom: 15px;
+}
+
+.gradient {	
+	margin-top: 20px;
+	color: white;
+	text-align: center;
+	padding: 30px;
+	background-size: cover;
+	background: #22275a;
+
+	
+}
+
+.flex-container {
+	margin: 0 auto;
+	max-width: 1100px;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+
+
+.vote-btn {
+	background-color: rgb(255,255,255);
+	border: 2px solid #595a5b;
+	padding: 20px 40px;
+	outline: none;
+	cursor: pointer;
+	transition-duration: 0.4s;
+	text-transform: uppercase;
+}
+
+.vote-btn:hover {
+	background-color: #595a5b;
+	color: white;
+}
+
+.vote-container {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 25px auto 0 auto;
+	max-width: 1100px;
+	justify-content: space-around;
+	border-top: 1px solid;
+}
+
+.vote-section {
+	text-align: center;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+
+.split {
+	flex-basis: 250px;
+}
+
+
+.split img {
+ border-radius: 20px ;
+}
+
+
+.vote {
+	flex-basis: 210px;
+}
+
+/* Media Queries */
+
+@media(min-width: 1000px) {
+	.item:not(:first-child) {
+		margin-left: 90px;
+	}
+}
+
+@media(min-width: 700px) {
+	.main-content {
+		width: 40%;
+		text-align: center;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+    .flex-container {
+        flex-direction: column;
+    }
+    .img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+@media only screen and (min-width: 601px) {
+    .flex-container {
+        display: flex;
+    }
+    .split {
+        flex: 1;
+        padding: 20px;
+    }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	.vote {
+		min-width: 50%;
+	}
+}
+
+
+.containerbo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.leftbo {
+    width: 50%;
+    padding-right: 20px;
+}
+
+.rightbo {
+    width: 50%;
+    padding-left: 20px;
+}
+
+.titlebo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-family: Helvetica
+}
+
+.subtitlebo {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: Helvetica
+}
+
+.buttonbo {
+    background-color: #323668;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 5px solid #49a1e8;
+    font-family: Helvetica
+}
+
+.buttonbo:hover {
+    box-shadow: 0 0 20px #49a1e8;
+}
+
+.imagebo {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.imagebe {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: none;
+    right: 100px;
+    position: relative;
+}
+
+.recrutement1 {
+        display: inline-block;
+        background: linear-gradient(to left, #1e812b, rgb(61, 199, 135));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        font-family: Helvetica;
+        font-weight: 800;
+}
+.recrutement2 {
+    display: inline-block;
+    background: linear-gradient(to left, #9645e2, rgb(200, 162, 243));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Helvetica;
+    font-weight: 800;
+}
+.recrutement3 {
+    display: inline-block;
+    background: linear-gradient(to left, #af6a11, rgb(201, 164, 83));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Helvetica;
+    font-weight: 800;
+}
+
+
+.poleanimation {
+	background: linear-gradient(to left, #9645e2, rgb(200, 162, 243));
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 800;
+}
+
+.polemedia {
+	background: linear-gradient(to left, #af6a11, rgb(201, 164, 83));
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 800;
+}
+
+.polestaff {
+	background: linear-gradient(to left, #1e812b, rgb(61, 199, 135));
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 800;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .left, .right {
+        width: 100%;
+        padding: 0;
+    }
+    .right {
+        margin-top: 20px;
+    }
+    .imagebo {
+		display: none;
+	}
+
+    .imagebe {
+		display: block;
+	}
+}
+
+
+
+
+
